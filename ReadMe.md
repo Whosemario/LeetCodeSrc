@@ -295,3 +295,99 @@ dp了，O(NM)
 
 ##LeetCode98 Binary Tree Zigzag Level Order Traversal
 简单题目
+
+##LeetCode99 Flatten Binary Tree to Linked List
+注意树的left指针要置为NULL
+
+##LeetCode100 Balanced Binary Tree
+简单题目
+
+##LeetCode101 Convert Sorted List to Binary Search Tree
+简单题目,是否可以不用数组呢
+
+##LeetCode102 Convert Sorted Array to Binary Search Tree
+简单题目
+
+##LeetCode103 Binary Tree Level Order Traversal II
+简单题目
+
+##LeetCode104 Construct Binary Tree from Inorder and Postorder Traversal
+递归来解还是蛮好写的
+
+##LeetCode105 Construct Binary Tree from Preorder and Inorder Traversal
+代码实现要仔细啊
+
+##LeetCode106 Validate Binary Search Tree
+利用中序遍历的性质
+
+##LeetCode107 Divide Two Integers
+**好题** 关键是时间复杂度怎么算的啊？
+
+##LeetCode108 Longest Valid Parentheses
+**好题** 贪心啊。。。
+
+##LeetCode109 Jump Game II
+**好题** 线段树
+
+##LeetCode110 Anagrams
+搞不懂为什么这样做
+
+##LeetCode111 Gray Code
+找规律即可得出
+
+##LeetCode112 Longest Consecutive Sequence
+**好题** 用 Hash Table 的时间复杂度将会为O(N)
+
+##LeetCode113 Word Ladder
+如果是构造图的话，要O(N^2)的时间复杂度，会TLE的
+
+##LeetCode114 Subset II
+dfs
+
+##LeetCode115 Word Ladder II
+终于改的不TLE了
+
+##LeetCode116 Populating Next Right Pointers in Each Node II
+**好题** 
+
+##LeetCode117 Distinct Subsequences
+**好题** dp
+
+##LeetCode118 Recover Binary Search Tree
+**好题** 节点的值都不相同吧
+
+##LeetCode119 Text Justification
+模拟题
+
+##LeetCode120 Search in Rotated Sorted Array II
+两次二分了
+
+##LeetCode121 Maximal Rectangle
+O(N*M^2)的时间复杂度
+
+##LeetCode122 Restore IP Addresses
+DFS
+
+##LeetCode123 Simplify Path
+简单题目，注意边界
+
+##LeetCode124 Valid Number
+各种坑啊，例如e3,+,+.,e前面必须有数字，e后面必须为整数
+
+##LeetCode125 Valid Sudoku
+只要现有的局面不违反数独规则，此数独就一定有解
+
+##LeetCode126 Scramble String
+三维DP
+
+##LeetCode127 Count and Say
+模拟题目
+
+##LeetCode128 Substring with Concatenation of All Words
+还是需要一下技巧的
+
+##LeetCode129 Solve Sudoku
+DFS
+
+##LeetCode130 Wildcard Matching
+**好题** 有一种用DP的方法，递归超时
